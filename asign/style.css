@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header{
+    color: rgb(22, 21, 21);
+    height: 80vh;
+    width: 90%;
+    background-position: center;
+    background-attachment: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    border-radius: 3rem;
+    /* background-image: url("best.png"); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+.block_1 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 150px;
+    margin-left: 120px;
+    height: 100px;
+    width: 30%;
+    /* background-color: red; */
+}
+
+.block_2 {
+    font-weight: 600;
+    font-size: 85px;
+    margin-left: 70px;
+    height: 30vh;
+    width: 40%;
+    margin-top: 85px;
+    letter-spacing: -10px;
+    word-spacing: -5px;
+    line-height: 170%;
+    text-transform: capitalize;
+    /* background-color: red; */
+    /* border-width: 0 0 4px 0px;
+    border-style: solid; */
+}
+
+.border{
+    border-width: 4px 0px 0px 0px;
+    border-style: solid;
+    width: 50%;
+    height: 2px;
+    margin-top: 80px;
+}
+
+.block_3 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-left: 70px;
+    text-transform: capitalize;
+    /* background-color: red; */
+    height: 30vh;
+    width: 30%;
+    letter-spacing: 6px;
+    word-spacing: 2px;
+    margin-top: 65px;
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.image_block{
+    height: 73.5vh;
+    width: 40%;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 50px;
+    border-radius: 40px 0px 0px 40px;
+    overflow: hidden;
+    border-width: 4px 0px 4px 4px;
+    border-style: solid;
+    color: red;
+    box-shadow: 0px 0px 50px 5px rgb(255, 0, 0);
+    z-index: 999;
+}
+
+.last_block {
+    height:20vh;
+    width: 73vh;
+    background-color: rgba(255, 238, 0, 0.425);
+    position: relative;
+    rotate: 90deg;
+    margin-top: -565px;
+    margin-left: 1300px;
+    display: flex;
+    justify-content: center;
+    box-shadow:0 0 50px 50px rgba(0, 0, 255, 0.425);
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 255, 0.548),rgba(255, 0, 0, 0.644));
+}
+
+
+.last_block h1 {
+    font-size: 200px;
+    margin-top:35px;
+    background-size: 200%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right, black,black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
